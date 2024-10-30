@@ -12,7 +12,7 @@ return [
 		'title' => __('Appearance mode', 'mwp-herd-effect'),
 		'val' => 'stable',
 		'atts' => [
-			'stable' => __( 'Stable', 'herd-effects' ),
+			'stable' => __( 'Stable', 'mwp-herd-effect' ),
 		],
 	],
 

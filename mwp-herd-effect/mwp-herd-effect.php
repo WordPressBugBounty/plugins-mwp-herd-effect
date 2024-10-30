@@ -1,9 +1,9 @@
 <?php
 /**
  *  Plugin Name:       Herd Effects
- *  Plugin URI:        https://wordpress.org/plugins/mwp-herd-effect/
+ *  Plugin URI:        https://wow-estore.com/item/wow-herd-effects-pro/
  *  Description:       Create and show fake notifications to motivate users to take action on your site!
- *  Version:           6.1
+ *  Version:           6.1.1
  *  Author:            Wow-Company
  *  Author URI:        https://wow-estore.com/
  *  License:           GPL-2.0+

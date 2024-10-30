@@ -33,7 +33,7 @@ class ManageCapabilities {
 
                     <div class="wpie-action__btn">
 						<?php
-						submit_button( __( 'Save Change', 'bubble-menu' ), 'large', 'submit', false );
+						submit_button( __( 'Save Change', 'mwp-herd-effect' ), 'large', 'submit', false );
 						wp_nonce_field( WOWP_Plugin::PREFIX . '_nonce', WOWP_Plugin::PREFIX . '_capabilities' ); ?>
                     </div>
                 </div>

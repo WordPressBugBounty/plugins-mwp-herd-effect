@@ -42,7 +42,7 @@ if ( ! isset( $options['live_preview'] ) ) {
                     <h3>
                         <span class="wpie-icon wpie_icon-eye-open"></span>
                         <span class="wpie-icon wpie_icon-eye-closed"></span>
-						<?php esc_html_e( 'Live preview', 'wpbuttons' ); ?>
+						<?php esc_html_e( 'Live preview', 'mwp-herd-effect' ); ?>
                     </h3>
                     <span class="wpie-item_heading_toogle">
                     <span class="wpie-icon wpie_icon-chevron-down"></span>
