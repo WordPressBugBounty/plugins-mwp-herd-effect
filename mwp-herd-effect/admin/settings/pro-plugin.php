@@ -139,7 +139,7 @@ $open       = ! empty( $item_order ) ? ' open' : '';
         </div>
     </details>
     <div class="wpie-buttons">
-        <a href="https://wow-estore.com/interactive-demo-wow-herd-effects-pro/" class="wpie-button is-demo" target="_blank">Demo</a>
+        <a href="https://demo.wow-estore.com/wow-herd-effects-pro/" class="wpie-button is-demo" target="_blank">Demo</a>
         <a href="https://wow-estore.com/item/wow-herd-effects-pro/" class="wpie-button is-pro" target="_blank">GET PRO</a>
     </div>
 </div>

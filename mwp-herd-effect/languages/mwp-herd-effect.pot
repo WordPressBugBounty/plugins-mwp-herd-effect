@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Herd Effects\n"
-"POT-Creation-Date: 2024-10-30 12:51+0200\n"
+"POT-Creation-Date: 2024-12-05 12:24+0200\n"
 "PO-Revision-Date: 2024-06-19 13:23+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -408,7 +408,7 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: admin/settings/3.style.php:157 admin/settings/options/1.content.php:28
+#: admin/settings/3.style.php:157 admin/settings/options/1.content.php:29
 msgid "Icon"
 msgstr ""
 
@@ -452,15 +452,15 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: admin/settings/options/1.content.php:35
+#: admin/settings/options/1.content.php:37
 msgid "Image URL"
 msgstr ""
 
-#: admin/settings/options/1.content.php:38
+#: admin/settings/options/1.content.php:40
 msgid "Enter Image URL"
 msgstr ""
 
-#: admin/settings/options/1.content.php:47
+#: admin/settings/options/1.content.php:49
 msgid ""
 "[variable_1] from [variable_2] has just bought <strong>Wow Herd Effects Pro</"
 "strong> [amount] minutes ago."
@@ -747,7 +747,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: admin/settings/sidebar.php:30 classes/Admin/ListTable.php:267
+#: admin/settings/sidebar.php:30 classes/Admin/ListTable.php:272
 msgid "Deactivate"
 msgstr ""
 
@@ -755,7 +755,7 @@ msgstr ""
 msgid "Test mode"
 msgstr ""
 
-#: admin/settings/sidebar.php:38 classes/Admin/ListTable.php:266
+#: admin/settings/sidebar.php:38 classes/Admin/ListTable.php:271
 msgid "Activate"
 msgstr ""
 
@@ -775,23 +775,27 @@ msgstr ""
 msgid "Item Remove"
 msgstr ""
 
-#: classes/Admin/Dashboard.php:37
+#: classes/Admin/Dashboard.php:38
 msgid "Settings"
 msgstr ""
 
+#: classes/Admin/Dashboard.php:49
+msgid "Check Version"
+msgstr ""
+
 #. translators: 1: Rating link (URL), 2: Plugin name
-#: classes/Admin/Dashboard.php:52
+#: classes/Admin/Dashboard.php:62
 #, php-format
 msgid ""
 "Thank you for using <b>%2$s</b>! Please <a href=\"%1$s\" "
 "target=\"_blank\">rate us</a>"
 msgstr ""
 
-#: classes/Admin/Dashboard.php:135
+#: classes/Admin/Dashboard.php:145
 msgid "Add New"
 msgstr ""
 
-#: classes/Admin/Dashboard.php:169
+#: classes/Admin/Dashboard.php:179
 msgid "Update"
 msgstr ""
 
@@ -872,27 +876,27 @@ msgstr ""
 msgid "Click for ON."
 msgstr ""
 
-#: classes/Admin/ListTable.php:265
+#: classes/Admin/ListTable.php:270
 msgid "Delate"
 msgstr ""
 
-#: classes/Admin/ListTable.php:268
+#: classes/Admin/ListTable.php:273
 msgid "Test mode ON"
 msgstr ""
 
-#: classes/Admin/ListTable.php:269
+#: classes/Admin/ListTable.php:274
 msgid "Test mode OFF"
 msgstr ""
 
-#: classes/Admin/ListTable.php:319
+#: classes/Admin/ListTable.php:324
 msgid "Filter by tag"
 msgstr ""
 
-#: classes/Admin/ListTable.php:322
+#: classes/Admin/ListTable.php:327
 msgid "All"
 msgstr ""
 
-#: classes/Admin/ListTable.php:335
+#: classes/Admin/ListTable.php:340
 msgid "Filter"
 msgstr ""
 
@@ -964,7 +968,7 @@ msgstr ""
 msgid "Wow Plugins"
 msgstr ""
 
-#: mwp-herd-effect.php:143 mwp-herd-effect.php:154
+#: mwp-herd-effect.php:145 mwp-herd-effect.php:156
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 

@@ -22,9 +22,7 @@ jQuery(document).ready(function ($) {
     function set_up() {
         $(selectors.full_editor).wowFullEditor();
 
-        $('.wpie-icon-box select').fontIconPicker({
-            theme: 'fip-darkgrey', emptyIcon: false, allCategoryText: 'Show all',
-        });
+        $('.wpie-icon-box').wowIconPicker();
 
         $(selectors.color_picker).wpColorPicker();
         $(selectors.image_download).wowImageDownload();

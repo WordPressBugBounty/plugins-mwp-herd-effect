@@ -40,7 +40,7 @@ class WOWP_Admin {
         <div class="wpie-links">
             <a href="<?php echo esc_url( WOWP_Plugin::info( 'pro' ) ); ?>" target="_blank">Pro Plugin</a>
             <a href="<?php echo esc_url( WOWP_Plugin::info( 'rating' ) ); ?>" target="_blank" class="wpie-color-orange">Rating</a>
-            <a href="https://www.wordfence.com/r/a0fe3fadb6e08d58/products/wordfence-free/" class="wpie-color-success" target="_blank">Secure your site</a>
+            <a href="<?php echo esc_url( WOWP_Plugin::info( 'change' ) ); ?>" target="_blank">Check Version</a>
         </div>
 		<?php
 	}
@@ -81,17 +81,17 @@ class WOWP_Admin {
 
 		// include fonticonpicker styles & scripts
 		$url_assets        = WOWP_Plugin::url() . 'vendors/';
-		$slug              = 'notification';
-		$fonticonpicker_js = $url_assets . 'fonticonpicker/fonticonpicker.min.js';
+		$slug              = WOWP_Plugin::SLUG;
 		$version = WOWP_Plugin::info( 'version' );
 
-		wp_enqueue_script( $slug . '-fonticonpicker', $fonticonpicker_js, array( 'jquery' ), $version, true );
+		$fonticonpicker_js = $url_assets . 'fonticonpicker/js/jquery.fonticonpicker.js';
+		wp_enqueue_script( $slug . '-fonticonpicker', $fonticonpicker_js, array( 'jquery' ), '3.1.1', true );
 
-		$fonticonpicker_css = $url_assets . 'fonticonpicker/css/fonticonpicker.min.css';
-		wp_enqueue_style( $slug . '-fonticonpicker', $fonticonpicker_css, null, $version );
+		$fonticonpicker_css = $url_assets . 'fonticonpicker/css/base/jquery.fonticonpicker.css';
+		wp_enqueue_style( $slug . '-fonticonpicker', $fonticonpicker_css, null, '3.1.1'  );
 
-		$fonticonpicker_dark_css = $url_assets . 'fonticonpicker/fonticonpicker.darkgrey.min.css';
-		wp_enqueue_style( $slug . '-fonticonpicker-darkgrey', $fonticonpicker_dark_css, null, $version );
+		$fonticonpicker_dark_css = $url_assets . 'fonticonpicker/css/themes/dark-grey-theme/jquery.fonticonpicker.darkgrey.css';
+		wp_enqueue_style( $slug . '-fonticonpicker-darkgrey', $fonticonpicker_dark_css, null, '3.1.1' );
 
 		$arg = [
 			'plugin_url' => WOWP_Plugin::url(),

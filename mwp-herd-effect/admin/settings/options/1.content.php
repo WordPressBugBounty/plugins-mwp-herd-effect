@@ -23,12 +23,14 @@ return [
 		],
 	],
 
+
 	'menu_icon' => [
-		'type'  => 'select',
-		'title' => __( 'Icon', 'mwp-herd-effect' ),
-		'val'   => '',
-		'class' => 'wpie-icon-box',
-		'atts'  => Settings_Helper::icons(),
+		'type'    => 'text',
+		'title'   => __( 'Icon', 'mwp-herd-effect' ),
+		'value'   => 'fas fa-wand-magic-sparkles',
+		'options' => [
+			'class' => 'wpie-icon-box',
+		]
 	],
 
 	'herd_custom_link' => [
