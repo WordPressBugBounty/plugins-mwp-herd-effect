@@ -52,11 +52,10 @@ class Dashboard {
 	}
 
 	public static function footer_text( $footer_text ) {
-		global $pagenow;
 
-		$page = isset( $_GET['page'] ) ? sanitize_text_field( wp_unslash( $_GET['page'] ) ) : '';
-
-		if ( $pagenow === 'admin.php' && ( ! empty( $page ) && $page === WOWP_Plugin::SLUG ) ) {
+		$screen = get_current_screen();
+        
+		if ( isset( $screen->id ) && $screen->id === 'wow-plugins_page_' . WOWP_Plugin::SLUG ) {
 			$text = sprintf(
 			/* translators: 1: Rating link (URL), 2: Plugin name */
 				__( 'Thank you for using <b>%2$s</b>! Please <a href="%1$s" target="_blank">rate us</a>',

@@ -5,7 +5,7 @@ Tags: social proof, popup notifications, real-time notifications, conversion boo
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 6.2
+Stable tag: 6.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,6 +93,8 @@ For global notifications, insert the shortcode into your `header.php` or use a s
 7. Configure display rules for your notifications.
 
 == Changelog ==
+= 6.2.1 =
+* Fixed: minor bug with a creating database
 
 = 6.2 =
 * Added: Categories to the icons
