@@ -54,7 +54,7 @@ class Dashboard {
 	public static function footer_text( $footer_text ) {
 
 		$screen = get_current_screen();
-        
+
 		if ( isset( $screen->id ) && $screen->id === 'wow-plugins_page_' . WOWP_Plugin::SLUG ) {
 			$text = sprintf(
 			/* translators: 1: Rating link (URL), 2: Plugin name */
