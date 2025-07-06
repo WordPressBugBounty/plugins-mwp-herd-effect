@@ -3,9 +3,9 @@ Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/item/wow-herd-effects-pro/
 Tags: social proof, popup notifications, real-time notifications, conversion boost, user activity
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 6.2.2
+Stable tag: 6.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,6 +93,11 @@ For global notifications, insert the shortcode into your `header.php` or use a s
 7. Configure display rules for your notifications.
 
 == Changelog ==
+= 6.2.3 =
+* Improved: Reorganized method order in DBManager class for better readability and maintenance
+* Improved: Minor SQL formatting for consistency
+* Cleaned: Minor code style improvements according to WordPress Coding Standards (WPCS)
+
 = 6.2.2 =
 * Fixed: Nonce verification logic for improved security.
 
