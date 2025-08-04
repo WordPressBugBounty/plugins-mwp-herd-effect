@@ -5,7 +5,7 @@ Tags: social proof, popup notifications, real-time notifications, conversion boo
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 6.2.3
+Stable tag: 6.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,6 +93,11 @@ For global notifications, insert the shortcode into your `header.php` or use a s
 7. Configure display rules for your notifications.
 
 == Changelog ==
+= 6.2.4 =
+* Improved: Refactored AdminActions class for better performance and readability
+* Improved: Reordered condition checks for better execution performance
+* Updated: Added strict type hinting for method arguments in AdminActions
+
 = 6.2.3 =
 * Improved: Reorganized method order in DBManager class for better readability and maintenance
 * Improved: Minor SQL formatting for consistency

@@ -3,7 +3,7 @@
  *  Plugin Name:       Herd Effects
  *  Plugin URI:        https://wow-estore.com/item/wow-herd-effects-pro/
  *  Description:       Create and show fake notifications to motivate users to take action on your site!
- *  Version:           6.2.3
+ *  Version:           6.2.4
  *  Author:            Wow-Company
  *  Author URI:        https://wow-estore.com/
  *  License:           GPL-2.0+
