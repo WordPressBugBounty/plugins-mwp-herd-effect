@@ -3,7 +3,7 @@ Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/item/wow-herd-effects-pro/
 Tags: social proof, popup notifications, real-time notifications, conversion boost, user activity
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 6.2.5
 License: GPLv2 or later
